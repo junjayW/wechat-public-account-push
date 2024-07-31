@@ -90,7 +90,7 @@ const USER_CONFIG = {
     eveningGreeting: false,
   
     // 天行天气（展示未来N天，最多7天）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
-    weather: 0,
+    weather: 1,
   
     // 全网热搜榜（展示N条，最多30条）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
     networkHot: 0,
@@ -98,18 +98,6 @@ const USER_CONFIG = {
     // 全网热搜榜展示类型，默认展示概要信息: ['title': 仅展示标题, 'default': 展示概要信息]
     networkHotType: 'default',
   },
-
-
-  // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: 'LB_k2zEBj4lcYWqU9r_o9i-7xyt6SdpxC73zCIw7enc',
-
-  CALLBACK_USERS: [
-    {
-      name: '自己',
-      // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oa1Xr6AkoJlEaUxYyPGxRz0ega-s',
-    }
-  ],
 
 }
 
