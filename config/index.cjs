@@ -45,6 +45,12 @@ const USER_CONFIG = {
         { keyword: 'love_day', date: '2022-06-04' },
         // 结婚纪念日
         { keyword: 'marry_day', date: '2024-01-07' },
+        // 认识的日子
+        { keyword: 'know_day', date: '2022-02-15' },
+        // 阳历生日
+        { keyword: 'know_day', date: '2024-12-31' },
+        // 阴历生日
+        { keyword: 'know_day', date: '2024-12-31' },
       ],
     },
       {
