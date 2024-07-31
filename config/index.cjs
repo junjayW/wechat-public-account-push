@@ -35,9 +35,9 @@ const USER_CONFIG = {
         {
           type: '生日', name: '林琳', year: '1994', date: '12-31',
         },
-        {
-          type: '节日', name: '相识纪念日', year: '2022', date: '2-15',
-        },
+        // {
+        //   type: '节日', name: '相识纪念日', year: '2022', date: '2-15',
+        // },
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
@@ -47,10 +47,6 @@ const USER_CONFIG = {
         { keyword: 'marry_day', date: '2024-01-07' },
         // 认识的日子
         { keyword: 'know_day', date: '2022-02-15' },
-        // 阳历生日
-        { keyword: 'know_day', date: '2024-12-31' },
-        // 阴历生日
-        { keyword: 'know_day', date: '2024-12-31' },
       ],
     },
       {
